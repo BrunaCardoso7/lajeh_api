@@ -1,0 +1,659 @@
+[
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "table_registry",
+        "importPath": "lajeh_api.users.models",
+        "description": "lajeh_api.users.models",
+        "isExtraImport": true,
+        "detail": "lajeh_api.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "lajeh_api.users.models",
+        "description": "lajeh_api.users.models",
+        "isExtraImport": true,
+        "detail": "lajeh_api.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "lajeh_api.users.models",
+        "description": "lajeh_api.users.models",
+        "isExtraImport": true,
+        "detail": "lajeh_api.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "RoleUser",
+        "importPath": "lajeh_api.users.models",
+        "description": "lajeh_api.users.models",
+        "isExtraImport": true,
+        "detail": "lajeh_api.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UserService",
+        "importPath": "lajeh_api.users.services",
+        "description": "lajeh_api.users.services",
+        "isExtraImport": true,
+        "detail": "lajeh_api.users.services",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "lajeh_api.users.schemas",
+        "description": "lajeh_api.users.schemas",
+        "isExtraImport": true,
+        "detail": "lajeh_api.users.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "importPath": "lajeh_api.users.schemas",
+        "description": "lajeh_api.users.schemas",
+        "isExtraImport": true,
+        "detail": "lajeh_api.users.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "lajeh_api.users.schemas",
+        "description": "lajeh_api.users.schemas",
+        "isExtraImport": true,
+        "detail": "lajeh_api.users.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "importPath": "lajeh_api.users.schemas",
+        "description": "lajeh_api.users.schemas",
+        "isExtraImport": true,
+        "detail": "lajeh_api.users.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "lajeh_api.users.schemas",
+        "description": "lajeh_api.users.schemas",
+        "isExtraImport": true,
+        "detail": "lajeh_api.users.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "importPath": "lajeh_api.users.schemas",
+        "description": "lajeh_api.users.schemas",
+        "isExtraImport": true,
+        "detail": "lajeh_api.users.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "registry",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "lajeh_api.users.repositories",
+        "description": "lajeh_api.users.repositories",
+        "isExtraImport": true,
+        "detail": "lajeh_api.users.repositories",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "lajeh_api.users.repositories",
+        "description": "lajeh_api.users.repositories",
+        "isExtraImport": true,
+        "detail": "lajeh_api.users.repositories",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "lajeh_api.database",
+        "description": "lajeh_api.database",
+        "isExtraImport": true,
+        "detail": "lajeh_api.database",
+        "documentation": {}
+    },
+    {
+        "label": "check_connection",
+        "importPath": "lajeh_api.database",
+        "description": "lajeh_api.database",
+        "isExtraImport": true,
+        "detail": "lajeh_api.database",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "sqlalchemy.dialects.postgresql",
+        "description": "sqlalchemy.dialects.postgresql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.postgresql",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "lajeh_api.settings",
+        "description": "lajeh_api.settings",
+        "isExtraImport": true,
+        "detail": "lajeh_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "lajeh_api.settings",
+        "description": "lajeh_api.settings",
+        "isExtraImport": true,
+        "detail": "lajeh_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "lajeh_api.users.controllers",
+        "description": "lajeh_api.users.controllers",
+        "isExtraImport": true,
+        "detail": "lajeh_api.users.controllers",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "SettingsConfigDict",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "lajeh_api.users.migrations.versions.4b222bfa880a_create_users_table",
+        "description": "lajeh_api.users.migrations.versions.4b222bfa880a_create_users_table",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('created_at', sa.DateTime(), server_default=sa.text('now()'), nullable=False),\n    sa.Column('updated_at', sa.DateTime(), server_default=sa.text('now()'), nullable=False),\n    sa.Column('username', sa.String(), nullable=False),\n    sa.Column('email', sa.String(), nullable=False),\n    sa.Column('password', sa.String(), nullable=False),\n    sa.Column('role', sa.Enum('admin', 'user', name='roleuser'), nullable=False),\n    sa.Column('id', sa.UUID(), nullable=False),",
+        "detail": "lajeh_api.users.migrations.versions.4b222bfa880a_create_users_table",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "lajeh_api.users.migrations.versions.4b222bfa880a_create_users_table",
+        "description": "lajeh_api.users.migrations.versions.4b222bfa880a_create_users_table",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('users')\n    # ### end Alembic commands ###",
+        "detail": "lajeh_api.users.migrations.versions.4b222bfa880a_create_users_table",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "lajeh_api.users.migrations.env",
+        "description": "lajeh_api.users.migrations.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"\n    Executa as migrações no modo 'offline'.\n    Neste modo, o contexto é configurado com apenas uma URL,\n    e não com um Engine. \n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")\n    context.configure(\n        url=url,\n        target_metadata=target_metadata,",
+        "detail": "lajeh_api.users.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "lajeh_api.users.migrations.env",
+        "description": "lajeh_api.users.migrations.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"\n    Executa as migrações no modo 'online'.\n    Neste modo, um Engine é criado e associado ao contexto.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "lajeh_api.users.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "lajeh_api.users.migrations.env",
+        "description": "lajeh_api.users.migrations.env",
+        "peekOfCode": "target_metadata = table_registry.metadata\n# Configuração do Alembic\nconfig = context.config\n# Configuração do logger com base no arquivo alembic.ini\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\ndef run_migrations_offline() -> None:\n    \"\"\"\n    Executa as migrações no modo 'offline'.\n    Neste modo, o contexto é configurado com apenas uma URL,",
+        "detail": "lajeh_api.users.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "lajeh_api.users.migrations.env",
+        "description": "lajeh_api.users.migrations.env",
+        "peekOfCode": "config = context.config\n# Configuração do logger com base no arquivo alembic.ini\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\ndef run_migrations_offline() -> None:\n    \"\"\"\n    Executa as migrações no modo 'offline'.\n    Neste modo, o contexto é configurado com apenas uma URL,\n    e não com um Engine. \n    \"\"\"",
+        "detail": "lajeh_api.users.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "lajeh_api.users.controllers",
+        "description": "lajeh_api.users.controllers",
+        "peekOfCode": "def create_user(\n    user: UserCreate,\n    db: Session = Depends(get_db),\n):\n    repository = UserRepository(db)\n    return repository.create_user_rp(user)",
+        "detail": "lajeh_api.users.controllers",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "lajeh_api.users.controllers",
+        "description": "lajeh_api.users.controllers",
+        "peekOfCode": "app = FastAPI()\nrouter = APIRouter(prefix=\"/users\", tags=[\"users\"]) \n@router.post(\"/regisiter\", response_model=None)\ndef create_user(\n    user: UserCreate,\n    db: Session = Depends(get_db),\n):\n    repository = UserRepository(db)\n    return repository.create_user_rp(user)",
+        "detail": "lajeh_api.users.controllers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "lajeh_api.users.controllers",
+        "description": "lajeh_api.users.controllers",
+        "peekOfCode": "router = APIRouter(prefix=\"/users\", tags=[\"users\"]) \n@router.post(\"/regisiter\", response_model=None)\ndef create_user(\n    user: UserCreate,\n    db: Session = Depends(get_db),\n):\n    repository = UserRepository(db)\n    return repository.create_user_rp(user)",
+        "detail": "lajeh_api.users.controllers",
+        "documentation": {}
+    },
+    {
+        "label": "RoleUser",
+        "kind": 6,
+        "importPath": "lajeh_api.users.models",
+        "description": "lajeh_api.users.models",
+        "peekOfCode": "class RoleUser(str, Enum):\n    admin = \"admin\"\n    user = \"user\"\n# Mapeamento do objeto relacional\n@table_registry.mapped_as_dataclass\nclass User:\n    __tablename__ = \"users\"\n   # Campos com valores padrão devem vir depois\n    created_at: Mapped[datetime] = mapped_column(\n        init=False, server_default=func.now()",
+        "detail": "lajeh_api.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "lajeh_api.users.models",
+        "description": "lajeh_api.users.models",
+        "peekOfCode": "class User:\n    __tablename__ = \"users\"\n   # Campos com valores padrão devem vir depois\n    created_at: Mapped[datetime] = mapped_column(\n        init=False, server_default=func.now()\n    )\n    updated_at: Mapped[datetime] = mapped_column(\n        init=False, server_default=func.now(), server_onupdate=func.now()\n    )\n    # Campos sem valor padrão podem vir antes",
+        "detail": "lajeh_api.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "table_registry",
+        "kind": 5,
+        "importPath": "lajeh_api.users.models",
+        "description": "lajeh_api.users.models",
+        "peekOfCode": "table_registry = registry()\nclass RoleUser(str, Enum):\n    admin = \"admin\"\n    user = \"user\"\n# Mapeamento do objeto relacional\n@table_registry.mapped_as_dataclass\nclass User:\n    __tablename__ = \"users\"\n   # Campos com valores padrão devem vir depois\n    created_at: Mapped[datetime] = mapped_column(",
+        "detail": "lajeh_api.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "kind": 6,
+        "importPath": "lajeh_api.users.repositories",
+        "description": "lajeh_api.users.repositories",
+        "peekOfCode": "class UserRepository:\n    def __init__(self, db_session: Session):\n        self.db_session = db_session\n    def get_user_by_username(self, username: str) -> User | None:\n        \"\"\"\n        Busca um usuário pelo nome de usuário.\n        \"\"\"\n        return self.db_session.query(User).filter(User.username == username).first()\n    def create_user_rp(self, user: UserCreate) -> UserResponse:\n        \"\"\"",
+        "detail": "lajeh_api.users.repositories",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "lajeh_api.users.schemas",
+        "description": "lajeh_api.users.schemas",
+        "peekOfCode": "class UserCreate(BaseModel):\n    username:str\n    email: str\n    password:str\n    role: RoleUser\nclass UserResponse(BaseModel):\n    id: str\n    username: str\n    email: str\n    role: RoleUser",
+        "detail": "lajeh_api.users.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "kind": 6,
+        "importPath": "lajeh_api.users.schemas",
+        "description": "lajeh_api.users.schemas",
+        "peekOfCode": "class UserResponse(BaseModel):\n    id: str\n    username: str\n    email: str\n    role: RoleUser\n    created_at: datetime\n    updated_at: datetime\n    model_config = {\n        \"from_attributes\": True\n    }",
+        "detail": "lajeh_api.users.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserService",
+        "kind": 6,
+        "importPath": "lajeh_api.users.services",
+        "description": "lajeh_api.users.services",
+        "peekOfCode": "class UserService:\n    def __init__(self, user_repository: UserRepository):\n        self.user_repository = user_repository\n    def create_user(self, user: UserCreate) -> UserResponse:\n        existing_user = self.user_repository.get_user_by_username(user.username)\n        if existing_user:\n            raise HTTPException(\n                status_code=status.HTTP_400_BAD_REQUEST,\n                detail=\"E-mail já cadastrado!\"\n            )",
+        "detail": "lajeh_api.users.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "lajeh_api.database",
+        "description": "lajeh_api.database",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndef check_connection(engine):\n    with engine.connect() as conn:\n        conn.execute(text(\"SELECT 1\"))",
+        "detail": "lajeh_api.database",
+        "documentation": {}
+    },
+    {
+        "label": "check_connection",
+        "kind": 2,
+        "importPath": "lajeh_api.database",
+        "description": "lajeh_api.database",
+        "peekOfCode": "def check_connection(engine):\n    with engine.connect() as conn:\n        conn.execute(text(\"SELECT 1\"))",
+        "detail": "lajeh_api.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "lajeh_api.database",
+        "description": "lajeh_api.database",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndef check_connection(engine):\n    with engine.connect() as conn:",
+        "detail": "lajeh_api.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "lajeh_api.database",
+        "description": "lajeh_api.database",
+        "peekOfCode": "Base = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndef check_connection(engine):\n    with engine.connect() as conn:\n        conn.execute(text(\"SELECT 1\"))",
+        "detail": "lajeh_api.database",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "lajeh_api.main",
+        "description": "lajeh_api.main",
+        "peekOfCode": "app = FastAPI(lifespan=lifespan)\napp.include_router(router)",
+        "detail": "lajeh_api.main",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "lajeh_api.settings",
+        "description": "lajeh_api.settings",
+        "peekOfCode": "class Settings(BaseSettings):\n    model_config=SettingsConfigDict(\n        env_file='./.env', env_file_encoding='utf-8'\n    )\n    DATABASE_URL:str",
+        "detail": "lajeh_api.settings",
+        "documentation": {}
+    }
+]
