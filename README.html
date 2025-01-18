@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>README do Projeto gestao de pedidos Django apiRest</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="readme-do-projeto-gestao-de-pedidos-django-apirest">README do Projeto gestao de pedidos Django apiRest</h1>
+<h2 id="descrição">Descrição</h2>
+<p>Instruções para configurar o ambiente de desenvolvimento da api de pedidos e executar o projeto em seu sistema.</p>
+<h3 id="detalhe-importante">Detalhe importante*</h3>
+<p>Na raiz do projeto está disponível um arquivo de coleção com todas as rota do projeto já pre-definidas para utilização em programas como postman e insomnia:</p>
+<pre><code class="language-bash">./rotas_api_pedidos_postman_insominia.json
+</code></pre>
+<h2 id="pré-requisitos">Pré-requisitos</h2>
+<p>Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:</p>
+<ul>
+<li><strong>Python 3.x</strong>:</li>
+<li><strong>pip</strong>:</li>
+</ul>
+<h3 id="url-para-acesso-da-documentação">Url para acesso da documentação:</h3>
+<pre><code class="language-bash">http://127.0.0.1:8000/api/schema/swagger-ui/<span class="hljs-comment">#/</span>
+</code></pre>
+<h2 id="passos-para-executar-o-projeto">Passos para Executar o Projeto</h2>
+<h3 id="1-clonar-o-repositório">1. Clonar o Repositório</h3>
+<p>Primeiro, clone o repositório para o seu computador. Abra o terminal e execute o seguinte comando:</p>
+<pre><code class="language-bash">git <span class="hljs-built_in">clone</span> https://github.com/BrunaCardoso7/gestao_de_pedidos_Django_apiRest.git
+</code></pre>
+<h3 id="2-acessar-o-diretório-do-projeto">2. Acessar o Diretório do Projeto</h3>
+<p>Após clonar o repositório, entre no diretório do projeto:</p>
+<pre><code class="language-bash"><span class="hljs-built_in">cd</span> gestao_de_pedidos_Django_apiRest
+</code></pre>
+<h3 id="3-criar-e-ativar-ambiente-virtual">3. Criar e Ativar Ambiente Virtual</h3>
+<ul>
+<li>Criar Ambiente Virtual</li>
+</ul>
+<pre><code class="language-bash">python3 -m venv venv
+</code></pre>
+<ul>
+<li>Ativar Ambiente Virtual</li>
+</ul>
+<p>No Linux🐧:</p>
+<pre><code class="language-bash"><span class="hljs-built_in">source</span> venv/bin/activate
+</code></pre>
+<p>No Windows:</p>
+<pre><code class="language-bash">.\venv\Scripts\activate
+</code></pre>
+<h3 id="4-instalar-as-dependências">4. Instalar as Dependências</h3>
+<p>Agora que o ambiente virtual está ativado, instale as dependências do projeto usando o pip. Execute:</p>
+<pre><code class="language-bash">pip install -r requirements.txt
+</code></pre>
+<h3 id="5-renomear-arquivo">5. Renomear arquivo</h3>
+<p>Renomeie o arquivo, .env.exmple para .env</p>
+<p>No Linux🐧:</p>
+<pre><code class="language-bash"><span class="hljs-built_in">mv</span> .env.example .<span class="hljs-built_in">env</span>
+</code></pre>
+<p>No Windows:</p>
+<pre><code class="language-bash">ren .env.example .<span class="hljs-built_in">env</span>
+</code></pre>
+<h3 id="6-configuração-de-banco-de-dados">6. Configuração de Banco de Dados</h3>
+<pre><code class="language-bash">python manage.py migrate
+</code></pre>
+<h3 id="7-executar-o-projeto">7. Executar o Projeto</h3>
+<p>Após as dependências estarem instaladas, você pode rodar o servidor com o seguinte comando:</p>
+<pre><code class="language-bash">python manage.py runserver
+</code></pre>
+<h3 id="8-testar-o-projeto">8. Testar o Projeto</h3>
+<p>execute-os para garantir que tudo esteja funcionando corretamente:</p>
+<p>os teste garante que o funcionamento das rotas e requisitos solicitados estejam funcionando</p>
+<pre><code class="language-bash">python manage.py <span class="hljs-built_in">test</span>
+</code></pre>
+<hr>
+
+            
+            
+        </body>
+        </html>

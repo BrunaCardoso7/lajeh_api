@@ -1,34 +1,18 @@
 [
     {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "logging.config",
         "documentation": {}
     },
     {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
         "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "op",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
-        "documentation": {}
-    },
-    {
-        "label": "context",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
+        "detail": "logging.config",
         "documentation": {}
     },
     {
@@ -37,6 +21,22 @@
         "isExtraImport": true,
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
         "detail": "sqlalchemy",
         "documentation": {}
     },
@@ -89,11 +89,43 @@
         "documentation": {}
     },
     {
-        "label": "fileConfig",
-        "importPath": "logging.config",
-        "description": "logging.config",
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
         "isExtraImport": true,
-        "detail": "logging.config",
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
         "documentation": {}
     },
     {
@@ -450,12 +482,66 @@
         "documentation": {}
     },
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
         "label": "uvicorn",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "uvicorn",
         "description": "uvicorn",
         "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "lajeh_api.fornecedores.migrations.env",
+        "description": "lajeh_api.fornecedores.migrations.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "lajeh_api.fornecedores.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "lajeh_api.fornecedores.migrations.env",
+        "description": "lajeh_api.fornecedores.migrations.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "lajeh_api.fornecedores.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "lajeh_api.fornecedores.migrations.env",
+        "description": "lajeh_api.fornecedores.migrations.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\ntarget_metadata = None",
+        "detail": "lajeh_api.fornecedores.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "lajeh_api.fornecedores.migrations.env",
+        "description": "lajeh_api.fornecedores.migrations.env",
+        "peekOfCode": "target_metadata = None\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "lajeh_api.fornecedores.migrations.env",
         "documentation": {}
     },
     {
@@ -654,6 +740,42 @@
         "description": "lajeh_api.settings",
         "peekOfCode": "class Settings(BaseSettings):\n    model_config=SettingsConfigDict(\n        env_file='./.env', env_file_encoding='utf-8'\n    )\n    DATABASE_URL:str",
         "detail": "lajeh_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "create_modules",
+        "kind": 2,
+        "importPath": "modules",
+        "description": "modules",
+        "peekOfCode": "def create_modules():\n    \"\"\"\n    Cria um novo módulo com arquivos padronizados.\n    \"\"\"\n    module_name = input(\"Nome do módulo: \")\n    module_path = os.path.join(MODULES_DIR, module_name)\n    if os.path.exists(module_path):\n        print(f\"Erro: o módulo {module_name} já existe!\")\n        return\n    os.makedirs(module_path)",
+        "detail": "modules",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "modules",
+        "description": "modules",
+        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.abspath(__file__))\nMODULES_DIR = os.path.join(BASE_DIR, \"lajeh_api\")\nDEFAULT_FILES = [\n    \"__init__.py\",\n    \"controllers.py\",\n    \"models.py\",\n    \"schemas.py\",\n    \"repositories.py\",\n    \"routes.py\",\n    \"services.py\",",
+        "detail": "modules",
+        "documentation": {}
+    },
+    {
+        "label": "MODULES_DIR",
+        "kind": 5,
+        "importPath": "modules",
+        "description": "modules",
+        "peekOfCode": "MODULES_DIR = os.path.join(BASE_DIR, \"lajeh_api\")\nDEFAULT_FILES = [\n    \"__init__.py\",\n    \"controllers.py\",\n    \"models.py\",\n    \"schemas.py\",\n    \"repositories.py\",\n    \"routes.py\",\n    \"services.py\",\n]",
+        "detail": "modules",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_FILES",
+        "kind": 5,
+        "importPath": "modules",
+        "description": "modules",
+        "peekOfCode": "DEFAULT_FILES = [\n    \"__init__.py\",\n    \"controllers.py\",\n    \"models.py\",\n    \"schemas.py\",\n    \"repositories.py\",\n    \"routes.py\",\n    \"services.py\",\n]\ndef create_modules():",
+        "detail": "modules",
         "documentation": {}
     }
 ]
