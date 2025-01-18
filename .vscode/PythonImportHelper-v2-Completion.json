@@ -1,5 +1,14 @@
 [
     {
+        "label": "cloudinary",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cloudinary",
+        "description": "cloudinary",
+        "detail": "cloudinary",
+        "documentation": {}
+    },
+    {
         "label": "fileConfig",
         "importPath": "logging.config",
         "description": "logging.config",
@@ -113,51 +122,43 @@
         "documentation": {}
     },
     {
-        "label": "Sequence",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "Union",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "table_registry",
-        "importPath": "lajeh_api.users.models",
-        "description": "lajeh_api.users.models",
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "lajeh_api.users.models",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "lajeh_api.users.models",
-        "description": "lajeh_api.users.models",
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "lajeh_api.users.models",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "lajeh_api.users.models",
-        "description": "lajeh_api.users.models",
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "lajeh_api.users.models",
-        "documentation": {}
-    },
-    {
-        "label": "RoleUser",
-        "importPath": "lajeh_api.users.models",
-        "description": "lajeh_api.users.models",
-        "isExtraImport": true,
-        "detail": "lajeh_api.users.models",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
@@ -230,6 +231,88 @@
         "description": "fastapi",
         "isExtraImport": true,
         "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FornecedoresService",
+        "importPath": "lajeh_api.fornecedores.services",
+        "description": "lajeh_api.fornecedores.services",
+        "isExtraImport": true,
+        "detail": "lajeh_api.fornecedores.services",
+        "documentation": {}
+    },
+    {
+        "label": "cloudinary.uploader",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cloudinary.uploader",
+        "description": "cloudinary.uploader",
+        "detail": "cloudinary.uploader",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "table_registry",
+        "importPath": "lajeh_api.users.models",
+        "description": "lajeh_api.users.models",
+        "isExtraImport": true,
+        "detail": "lajeh_api.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "lajeh_api.users.models",
+        "description": "lajeh_api.users.models",
+        "isExtraImport": true,
+        "detail": "lajeh_api.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "lajeh_api.users.models",
+        "description": "lajeh_api.users.models",
+        "isExtraImport": true,
+        "detail": "lajeh_api.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "RoleUser",
+        "importPath": "lajeh_api.users.models",
+        "description": "lajeh_api.users.models",
+        "isExtraImport": true,
+        "detail": "lajeh_api.users.models",
         "documentation": {}
     },
     {
@@ -466,6 +549,22 @@
         "documentation": {}
     },
     {
+        "label": "router",
+        "importPath": "lajeh_api.fornecedores.controllers",
+        "description": "lajeh_api.fornecedores.controllers",
+        "isExtraImport": true,
+        "detail": "lajeh_api.fornecedores.controllers",
+        "documentation": {}
+    },
+    {
+        "label": "configure_cloudinary",
+        "importPath": "lajeh_api.configs.cloudinary.main",
+        "description": "lajeh_api.configs.cloudinary.main",
+        "isExtraImport": true,
+        "detail": "lajeh_api.configs.cloudinary.main",
+        "documentation": {}
+    },
+    {
         "label": "BaseSettings",
         "importPath": "pydantic_settings",
         "description": "pydantic_settings",
@@ -509,6 +608,15 @@
         "documentation": {}
     },
     {
+        "label": "configure_cloudinary",
+        "kind": 2,
+        "importPath": "lajeh_api.configs.cloudinary.main",
+        "description": "lajeh_api.configs.cloudinary.main",
+        "peekOfCode": "def configure_cloudinary():\n    cloudinary.config( \n        cloud_name = \"dcezopogd\", \n        api_key = \"554937882793472\", \n        api_secret = \"ryTyn3wz0KxGrGQkuVehD5HMMIw\", \n        secure=True\n    )",
+        "detail": "lajeh_api.configs.cloudinary.main",
+        "documentation": {}
+    },
+    {
         "label": "run_migrations_offline",
         "kind": 2,
         "importPath": "lajeh_api.fornecedores.migrations.env",
@@ -542,6 +650,33 @@
         "description": "lajeh_api.fornecedores.migrations.env",
         "peekOfCode": "target_metadata = None\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
         "detail": "lajeh_api.fornecedores.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "lajeh_api.fornecedores.controllers",
+        "description": "lajeh_api.fornecedores.controllers",
+        "peekOfCode": "app = FastAPI()\nrouter = APIRouter(prefix=\"/fornecedor\", tags=[\"fornecedor\"]) \n@router.post(\"/uploadfile/\")\nasync def create_upload_file(file: UploadFile):\n    response = await FornecedoresService.create_upload_fornecedor_service(file)\n    return response\n# @router.get(\"/processfile/\")\n# def process_file (url:str):\n#     try:\n#         response = FornecedoresService.process_excel_file(url)",
+        "detail": "lajeh_api.fornecedores.controllers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "lajeh_api.fornecedores.controllers",
+        "description": "lajeh_api.fornecedores.controllers",
+        "peekOfCode": "router = APIRouter(prefix=\"/fornecedor\", tags=[\"fornecedor\"]) \n@router.post(\"/uploadfile/\")\nasync def create_upload_file(file: UploadFile):\n    response = await FornecedoresService.create_upload_fornecedor_service(file)\n    return response\n# @router.get(\"/processfile/\")\n# def process_file (url:str):\n#     try:\n#         response = FornecedoresService.process_excel_file(url)\n#         return response",
+        "detail": "lajeh_api.fornecedores.controllers",
+        "documentation": {}
+    },
+    {
+        "label": "FornecedoresService",
+        "kind": 6,
+        "importPath": "lajeh_api.fornecedores.services",
+        "description": "lajeh_api.fornecedores.services",
+        "peekOfCode": "class FornecedoresService:\n    @staticmethod\n    async def create_upload_fornecedor_service(file: UploadFile):\n        try:\n            file_byte = await file.read()\n            uploud_result = cloudinary.uploader.upload(\n                file=file_byte, \n                resource_type=\"auto\",\n                public_id=file.filename.split(\".\")[0] \n            )",
+        "detail": "lajeh_api.fornecedores.services",
         "documentation": {}
     },
     {
@@ -729,7 +864,7 @@
         "kind": 5,
         "importPath": "lajeh_api.main",
         "description": "lajeh_api.main",
-        "peekOfCode": "app = FastAPI(lifespan=lifespan)\napp.include_router(router)",
+        "peekOfCode": "app = FastAPI(lifespan=lifespan)\napp.include_router(user_router)\napp.include_router(fornecedor_router)\nconfigure_cloudinary()",
         "detail": "lajeh_api.main",
         "documentation": {}
     },
