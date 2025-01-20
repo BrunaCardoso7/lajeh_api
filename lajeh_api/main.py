@@ -1,9 +1,9 @@
 
-from fastapi import FastAPI, APIRouter
+from fastapi import FastAPI
 from lajeh_api.database import check_connection
 from sqlalchemy import create_engine
 from lajeh_api.settings import Settings
-from lajeh_api.users.controllers import router as user_router
+from lajeh_api.users.routes import router as user_router
 from lajeh_api.fornecedores.controllers import router as fornecedor_router
 from lajeh_api.configs.cloudinary.main import configure_cloudinary
 engine=create_engine(Settings().DATABASE_URL)

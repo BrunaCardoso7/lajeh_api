@@ -1,6 +1,7 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict, computed_field
 from datetime import datetime
 from lajeh_api.users.models import RoleUser
+from sqlalchemy.dialects.postgresql import UUID
 
 
 class UserCreate(BaseModel):
@@ -16,7 +17,11 @@ class UserResponse(BaseModel):
     role: RoleUser
     created_at: datetime
     updated_at: datetime
-
-    model_config = {
-        "from_attributes": True
-    }
+    
+    model_config = ConfigDict(
+        from_attributes=True,
+        arbitrary_types_allowed=True,
+        json_encoders={
+            UUID: str
+        }
+    )

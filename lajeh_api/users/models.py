@@ -16,7 +16,7 @@ class RoleUser(str, Enum):
 class User:
     __tablename__ = "users"
     
-   # Campos com valores padrão devem vir depois
+    # Campos com valores padrão devem vir depois
     created_at: Mapped[datetime] = mapped_column(
         init=False, server_default=func.now()
     )

@@ -1,38 +1,40 @@
-from sqlalchemy.orm import Session
+from sqlalchemy.dialects.postgresql import UUID
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy.future import select
+
 from sqlalchemy.exc import SQLAlchemyError
 from lajeh_api.users.models import User
 from lajeh_api.users.schemas import UserCreate, UserResponse
 from uuid import uuid4
 
 class UserRepository:
-    def __init__(self, db_session: Session):
+    def __init__(self, db_session: AsyncSession):
         self.db_session = db_session
 
-    def get_user_by_username(self, username: str) -> User | None:
-        """
-        Busca um usuário pelo nome de usuário.
-        """
-        return self.db_session.query(User).filter(User.username == username).first()
+    async def get_user_by_username(self, username: str) -> User | None:
+        stmt = select(User).where(User.username == username)
+        result = await self.db_session.execute(stmt)
+        return result.scalars().first()
 
-    def create_user_rp(self, user: UserCreate) -> UserResponse:
-        """
-        Cria um novo usuário no banco de dados.
-        """
-        existing_user = self.db_session.query(User).filter(User.email == user.email).first()
-        if existing_user:
-            raise ValueError(f"Email {user.email} já está em uso.")
+    async def create_user_rp(self, user: UserCreate) -> UserResponse:
         try:
-            user_data = user.model_dump()
-            user_data['id'] = uuid4() 
-            # Criando a instância do usuário
-            new_user = User(**user_data)
-            # Salvando no banco de dados
-            self.db_session.add(new_user)
-            self.db_session.commit()
-            self.db_session.refresh(new_user)
+            user_data = user.model_dump()  
+            user_data['id'] = str(uuid4())  
 
-            # Convertendo para o esquema de resposta usando `model_validate`
-            return {**vars(new_user), 'id': str(new_user.id)} 
+            new_user = User(**user_data)
+
+            self.db_session.add(new_user)
+            await self.db_session.commit()
+            await self.db_session.refresh(new_user)
+            
+            return UserResponse.model_validate({
+                'id': str(new_user.id),  
+                'username': new_user.username,
+                'email': new_user.email,
+                'role': new_user.role,
+                'updated_at': new_user.updated_at,
+                'created_at': new_user.created_at
+            })
         except SQLAlchemyError as e:
-            self.db_session.rollback()
+            await self.db_session.rollback()
             raise ValueError(f"Erro ao criar o usuário: {str(e)}")
