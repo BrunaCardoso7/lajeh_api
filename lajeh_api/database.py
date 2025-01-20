@@ -6,9 +6,8 @@ from lajeh_api.settings import Settings
 from typing import AsyncGenerator
 
 
-# engine=create_async_engine(Settings().DATABASE_URL, echo=True)
 engine=create_async_engine(
-    "postgresql+asyncpg://lajeh_0_1_user:VeLw1y6KniThyeRZrhW005gSq6C4H46i@dpg-cu2t6qlumphs73b0nha0-a.oregon-postgres.render.com/lajeh_0_1", 
+    Settings().DATABASE_URL,
     echo=True
 )
 
@@ -28,5 +27,5 @@ async def get_db() -> AsyncGenerator[AsyncSession, None]:
 
 async def check_connection():
     async with engine.connect() as conn:
-        await conn.execute(text("SELECT 1"))  # Executando um simples SELECT para verificar
+        await conn.execute(text("SELECT 1")) 
         print("Conexão bem-sucedida com o banco de dados!")

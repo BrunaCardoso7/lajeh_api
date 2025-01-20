@@ -1061,7 +1061,7 @@
         "kind": 5,
         "importPath": "lajeh_api.database",
         "description": "lajeh_api.database",
-        "peekOfCode": "Base = declarative_base()\nasync def get_db() -> AsyncGenerator[AsyncSession, None]:\n    async with AsyncSessionLocal() as session:\n        yield session\nasync def check_connection():\n    async with engine.connect() as conn:\n        await conn.execute(text(\"SELECT 1\"))  # Executando um simples SELECT para verificar\n        print(\"Conexão bem-sucedida com o banco de dados!\")",
+        "peekOfCode": "Base = declarative_base()\nasync def get_db() -> AsyncGenerator[AsyncSession, None]:\n    async with AsyncSessionLocal() as session:\n        yield session\nasync def check_connection():\n    async with engine.connect() as conn:\n        await conn.execute(text(\"SELECT 1\")) \n        print(\"Conexão bem-sucedida com o banco de dados!\")",
         "detail": "lajeh_api.database",
         "documentation": {}
     },
