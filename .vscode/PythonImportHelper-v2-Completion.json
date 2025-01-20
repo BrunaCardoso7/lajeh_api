@@ -90,14 +90,6 @@
         "documentation": {}
     },
     {
-        "label": "create_engine",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
         "label": "context",
         "importPath": "alembic",
         "description": "alembic",
@@ -486,6 +478,14 @@
         "documentation": {}
     },
     {
+        "label": "AsyncGenerator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "table_registry",
         "importPath": "lajeh_api.users.models",
         "description": "lajeh_api.users.models",
@@ -700,14 +700,6 @@
         "description": "sqlalchemy.ext.declarative",
         "isExtraImport": true,
         "detail": "sqlalchemy.ext.declarative",
-        "documentation": {}
-    },
-    {
-        "label": "Settings",
-        "importPath": "lajeh_api.settings",
-        "description": "lajeh_api.settings",
-        "isExtraImport": true,
-        "detail": "lajeh_api.settings",
         "documentation": {}
     },
     {
@@ -1056,20 +1048,11 @@
         "documentation": {}
     },
     {
-        "label": "check_connection",
-        "kind": 2,
-        "importPath": "lajeh_api.database",
-        "description": "lajeh_api.database",
-        "peekOfCode": "def check_connection(engine):\n    with engine.connect() as conn:\n        conn.execute(text(\"SELECT 1\"))",
-        "detail": "lajeh_api.database",
-        "documentation": {}
-    },
-    {
         "label": "AsyncSessionLocal",
         "kind": 5,
         "importPath": "lajeh_api.database",
         "description": "lajeh_api.database",
-        "peekOfCode": "AsyncSessionLocal = sessionmaker(\n    autocommit=False,\n    autoflush=False,\n    bind=engine,\n    class_=AsyncSession\n) \nBase = declarative_base()\nasync def get_db():    \n    async with AsyncSessionLocal() as session:\n        yield session",
+        "peekOfCode": "AsyncSessionLocal = sessionmaker(\n    autocommit=False,\n    autoflush=False,\n    bind=engine,\n    class_=AsyncSession\n) \nBase = declarative_base()\nasync def get_db() -> AsyncGenerator[AsyncSession, None]:\n    async with AsyncSessionLocal() as session:\n        yield session",
         "detail": "lajeh_api.database",
         "documentation": {}
     },
@@ -1078,7 +1061,7 @@
         "kind": 5,
         "importPath": "lajeh_api.database",
         "description": "lajeh_api.database",
-        "peekOfCode": "Base = declarative_base()\nasync def get_db():    \n    async with AsyncSessionLocal() as session:\n        yield session\ndef check_connection(engine):\n    with engine.connect() as conn:\n        conn.execute(text(\"SELECT 1\"))",
+        "peekOfCode": "Base = declarative_base()\nasync def get_db() -> AsyncGenerator[AsyncSession, None]:\n    async with AsyncSessionLocal() as session:\n        yield session\nasync def check_connection():\n    async with engine.connect() as conn:\n        await conn.execute(text(\"SELECT 1\"))  # Executando um simples SELECT para verificar\n        print(\"Conexão bem-sucedida com o banco de dados!\")",
         "detail": "lajeh_api.database",
         "documentation": {}
     },
